@@ -325,4 +325,54 @@ gap: 20px;
 .about .container {
 margin: auto;
 }
+  /* PROJECT LINKS */
+
+.project-links {
+display: flex;
+align-items: center;
+gap: 12px;
+margin-top: 28px;
+flex-wrap: wrap;
+}
+
+.project-button {
+display: inline-flex;
+align-items: center;
+justify-content: space-between;
+gap: 18px;
+
+padding: 11px 16px;
+
+font-size: 13px;
+font-weight: 600;
+letter-spacing: 0.3px;
+
+text-decoration: none;
+border: 1px solid #161616;
+
+transition: all 0.2s ease;
+}
+
+.project-button-primary {
+background: #161616;
+color: #ffffff;
+}
+
+.project-button-primary:hover {
+background: #333333;
+}
+
+.project-button-secondary {
+background: transparent;
+color: #161616;
+}
+
+.project-button-secondary:hover {
+background: #161616;
+color: #ffffff;
+}
+
+.project-button span {
+font-size: 16px;
+}
 }
