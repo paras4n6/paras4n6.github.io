@@ -420,5 +420,7 @@ background-color: #333333;
 background-color: #161616;
 color: #ffffff !important;
 }
-
+.project-status {
+    marjin-top: 24px;
+}
 }
